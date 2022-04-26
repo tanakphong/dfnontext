@@ -22,7 +22,9 @@ const Home = () => {
         if (liff.isLoggedIn()) {
           runApp();
         } else {
-          liff.login({redirectUri:'https://react-3ysojc.stackblitz.io/login'});
+          liff.login({
+            redirectUri: 'https://dfnontext.stackblitz.io/login',
+          });
         }
       },
       (err) => console.error(err)

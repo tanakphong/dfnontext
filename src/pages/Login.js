@@ -25,7 +25,7 @@ const Login = () => {
           runApp();
         } else {
           liff.login({
-            redirectUri: 'https://react-3ysojc.stackblitz.io/login',
+            redirectUri: 'https://dfnontext.stackblitz.io/login',
           });
         }
       },
